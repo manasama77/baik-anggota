@@ -1,0 +1,21 @@
+{
+	"description": "Backend untuk Marketplace BAIK",
+	"name": "manasama77/admin.baik.marketplace",
+	"type": "project",
+	"homepage": "https://baytulikhtiar.com",
+	"license": "",
+	"support": {
+		"Rezza Anwary": "+62 8211-4578-976"
+	},
+	"require": {
+		"php": ">=7.3.12",
+		"components/jquery": "^3.5",
+		"components/jqueryui": "^1.12",
+		"twbs/bootstrap": "^4.5",
+		"fortawesome/font-awesome": "^5.15"
+	},
+	"suggest": {
+	},
+	"require-dev": {
+	}
+}
