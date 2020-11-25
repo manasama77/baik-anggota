@@ -68,7 +68,7 @@ class LoginController extends CI_Controller
         //set the url, number of POST vars, POST data
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, TRUE);
         curl_setopt($ch, CURLOPT_URL, $url);
-        curl_setopt($ch, CURLOPT_POST, count($field_string));
+        curl_setopt($ch, CURLOPT_POST, $field_string);
         curl_setopt($ch, CURLOPT_POSTFIELDS, $field_string);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
 
